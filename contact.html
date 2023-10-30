@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Circle 134</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+    <main>
+      <section>
+        <h3>
+          Come and Collaborate with us
+        </h3>
+
+        <p>
+          When you collaborate with us, you can confidently expect to ship world class
+          products. Our beautifully put-together <a href="/about.html">team</a> of engineers are the best at what
+          they do. If you have any questions, feedback or just want to say hi,
+          feel free to contact us. We'll be delighted to hear from you.
+        </p>
+      </section>
+      <form id="contactForm" action="#" method="post">
+        <fieldset>
+          <legend>Contact Information</legend>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Project Details</legend>
+          <div>
+            <p><em>Fill this form if you want to work with us on a project</em></p>
+            <label for="project-type">Project Type:</label>
+            <select id="project-type" name="project-type">
+              <option value="Web Development">Web Development</option>
+              <option value="App Development">App Development</option>
+              <option value="E-commerce">E-commerce Website</option>
+              <option value="E-commerce">Database Management</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div>
+            <label for="project-description">Project Description:</label>
+            <textarea
+              id="project-description"
+              name="project-description"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2023 Circle 134&trade; Engineering Team. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

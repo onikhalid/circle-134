@@ -1,0 +1,27 @@
+/*Element Selector*/
+
+section {
+    color: rgb(17, 156, 199);
+}
+
+
+/*ID Selector*/
+
+#footer-p {
+    font-size: larger;
+    font-weight: bold;
+    color: sandybrown;
+}
+
+
+/*Class Selector*/
+
+.title {
+    font-size: larger;
+    color: rosybrown;
+    text-decoration: underline;
+}
+
+.nav a {
+    margin: 0 10px;
+}
